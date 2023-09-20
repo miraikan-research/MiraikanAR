@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        NSLog("\(URL(string: #file)!.lastPathComponent) \(#function): \(#line)")
+        NSLog("\(URL(fileURLWithPath: #file).lastPathComponent) \(#function): \(#line)")
         if let url = connectionOptions.urlContexts.first?.url {
             LocationManager.shared.setLocation(url: url)
             if LocationManager.shared.floor != 0 {
@@ -56,7 +56,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
-        NSLog("\(URL(string: #file)!.lastPathComponent) \(#function): \(#line)")
+        NSLog("\(URL(fileURLWithPath: #file).lastPathComponent) \(#function): \(#line)")
         if let url = URLContexts.first?.url {
             LocationManager.shared.setLocation(url: url)
             if LocationManager.shared.floor != 0 {

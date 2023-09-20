@@ -81,7 +81,7 @@ final public class ArManager: NSObject {
                 }
             }
         }
-//        NSLog("\(URL(string: #file)!.lastPathComponent) \(#function): \(#line), lockArMarker.id: \(lockArMarker?.id), marker: \(marker.id) serialMarker: \(serialMarker), keepMarkerFlag: \(keepMarkerFlag), isPlaying: \(AudioManager.shared.isPlaying), isSpeaking: \(AudioManager.shared.isSpeaking()), isPause: \(AudioManager.shared.isPause())")
+//        NSLog("\(URL(fileURLWithPath: #file).lastPathComponent) \(#function): \(#line), lockArMarker.id: \(lockArMarker?.id), marker: \(marker.id) serialMarker: \(serialMarker), keepMarkerFlag: \(keepMarkerFlag), isPlaying: \(AudioManager.shared.isPlaying), isSpeaking: \(AudioManager.shared.isSpeaking()), isPause: \(AudioManager.shared.isPause())")
         lockArMarker = marker
         lastCheckMarkerTime = Date().timeIntervalSince1970
 
@@ -89,7 +89,7 @@ final public class ArManager: NSObject {
     }
 
     func serialMarkerAction() {
-//        NSLog("\(URL(string: #file)!.lastPathComponent) \(#function): \(#line), isPlaying: \(AudioManager.shared.isPlaying), serialMarker: \(serialMarker), speechStatus: \(AudioManager.shared.speechStatus())")
+//        NSLog("\(URL(fileURLWithPath: #file).lastPathComponent) \(#function): \(#line), isPlaying: \(AudioManager.shared.isPlaying), serialMarker: \(serialMarker), speechStatus: \(AudioManager.shared.speechStatus())")
         // マーカーをカメラ外にしてから再認識した場合の処理
         if AudioManager.shared.isPlaying &&
             serialMarker {
@@ -418,7 +418,7 @@ final public class ArManager: NSObject {
 // MARK: - AudioManagerDelegate
 extension ArManager: AudioManagerSystemDelegate {
     func speakFinish(speakingData: VoiceModel) {
-        NSLog("\(URL(string: #file)!.lastPathComponent) \(#function): \(#line), id:\(speakingData.id)")
+        NSLog("\(URL(fileURLWithPath: #file).lastPathComponent) \(#function): \(#line), id:\(speakingData.id)")
 
         if speakingData.type == .lockGuide {
             if AudioManager.shared.progress == .next {

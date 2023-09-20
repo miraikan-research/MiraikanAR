@@ -196,7 +196,7 @@ extension ARMessageListView: UITableViewDelegate , UITableViewDataSource {
     // MARK: UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-//        NSLog("\(URL(string: #file)!.lastPathComponent) \(#function): \(#line)")
+//        NSLog("\(URL(fileURLWithPath: #file).lastPathComponent) \(#function): \(#line)")
 
         if AudioManager.shared.isSpeaking() {
             if let action = action {

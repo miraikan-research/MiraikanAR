@@ -40,7 +40,7 @@ class AccessibilityLabel: UILabel {
     }
 
     override open func accessibilityElementDidBecomeFocused() {
-        NSLog("\(URL(string: #file)!.lastPathComponent) \(#function): \(#line)")
+        NSLog("\(URL(fileURLWithPath: #file).lastPathComponent) \(#function): \(#line)")
         if let accessibilityText = accessibilityText {
             tts.speak(accessibilityText, selfspeak: false, quickAnswer: false, callback: { [weak self] in
                 guard let _ = self else { return }

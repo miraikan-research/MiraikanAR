@@ -87,7 +87,7 @@ class ARGuideRow: UITableViewCell {
            let descriptionDetail = model.descriptionDetail {
             voice = descriptionDetail.unionMessage(pron: true)
         }
-//        NSLog("\(URL(string: #file)!.lastPathComponent) \(#function): \(#line), \(model.message)")
+//        NSLog("\(URL(fileURLWithPath: #file).lastPathComponent) \(#function): \(#line), \(model.message)")
 
         titleLabel.text = model.message
         titleLabel.numberOfLines = lines
