@@ -1,0 +1,742 @@
+/*******************************************************************************
+ * Copyright (c) 2014, 2016  IBM Corporation, Carnegie Mellon University and others
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *******************************************************************************/
+
+// Language Code
+"lang" = "ja";
+
+"PERIOD" = "。";
+
+"CANCEL" = "キャンセル";
+"SETTING" = "設定を開く";
+"YES"     = "はい";
+"NO"      = "いいえ";
+"OK"      = "OK";
+"Done"    = "完了";
+"Decide"  = "決定";
+"Confirm" = "確認";
+"Search"  = "検索";
+"Edit"    = "編集";
+"Error"   = "エラー";
+
+"Miraikan" = "日本科学未来館";
+
+"Miraikan Floor Plan" = "日本科学未来館フロアマップ";
+
+/* label for distance unit option */
+"Distance unit" = "距離の単位";
+
+/* feet distance unit label */
+"Feet" = "フィート";
+
+/* meter distance unit label */
+"Meter" = "メートル";
+
+"%d centimetre" = "%d センチメートル";
+
+"%d metre" = "%d メートル";
+
+"Initial zoom level for navigation" = "ナビゲーション開始時のズーム";
+
+"Launch Exercise" = "練習を始める";
+
+/* label for exercise options */
+"Exercise" = "練習";
+
+"TOILET" = "トイレ";
+
+"RESTROOM" = "トイレ";
+
+/* Toilet for people with disability */
+"FOR_DISABLEDRESTROOM" = "多機能トイレ";
+
+/* Toilet for female */
+"FOR_FEMALEFOR_DISABLEDRESTROOM" = "女性用多機能トイレ";
+
+/* Toilet for male */
+"FOR_MALEFOR_DISABLEDRESTROOM" = "男性用多機能トイレ";
+
+/* Toilet for female */
+"FOR_FEMALERESTROOM" = "女性用トイレ";
+
+/* Toilet for male */
+"FOR_MALERESTROOM" = "男性用トイレ";
+
+/* label for map */
+"Map" = "地図";
+
+"Navigation History" = "案内の履歴";
+
+"Prefer Tactile Paving" = "点字ブロックを優先する";
+
+"Preview speed" = "プレビュー速度";
+
+"Preview with action" = "振ってプレビュー";
+
+"SPEECH_SPEED_CHECK" = "読み上げ速度:%.2f";
+
+/* label for speech speed option */
+"Speech speed" = "読み上げ速度";
+
+/* label for tts options */
+"Speech_Sound" = "読み上げ / 音";
+
+/* Mode title for "Visually Impaired User" */
+"user_blind" = "視覚障がい者";
+
+/* Mode title for "Wheelchair User" */
+"user_wheelchair" = "車いす利用者";
+
+/* Mode title for "Stroller User" */
+"user_stroller" = "ベビーカー利用者";
+
+/* Mode title for "General Pedestrian" */
+"user_general" = "一般歩行者";
+
+/* Mode heading title of setting menu */
+"Mode" = "モード";
+
+"UI_BLIND" = "視覚障がい者ユーザ";
+
+"UI_Mode" = "UIモード";
+
+"UI_WHEELCHAIR" = "車椅子ユーザ / 晴眼者ユーザ";
+
+"Use Elevator" = "エレベーターを使う";
+
+"Use Escalator" = "エスカレーターを使う";
+
+"Use Moving Walkway" = "動く歩道を使う";
+
+"Use Stairs" = "階段を使う";
+
+"Loading, please wait" = "読み込んでいます、少々お待ちください";
+
+"Loading preview" = "測位範囲外です。プレビューを起動しています。";
+
+"checkNetworkConnection" = "ネットワークの接続を確認してください";
+
+"soundEffectSetting" = "効果音で通知";
+
+"vibrateSetting" = "振動で通知";
+
+"for_bone_conduction_headset" = "骨伝導ヘッドフォン用の効果音";
+
+"Reset_Location" = "位置推定をやり直す";
+"Stop_Location" = "位置推定停止";
+"Start_Location" = "位置推定開始";
+
+// Alert
+"Open_with_Safari" = "Safariで開く";
+"Open_with_Safari_Message" = "ウェブページをSafariで開きますが、よろしいですか？";
+
+"CheckServerList" = "リストを確認中...";
+"CheckAgreement" = "設定を確認中...";
+"CheckServerConfig" = "設定を確認中...";
+"DOWNLOADING_DATA" = "データをダウンロード中...";
+
+"NoAltimeterAlertTitle" = "気圧計がありません";
+"NoAltimeterAlertMessage" = "NavCogはお使いのデバイスをサポートしていません。お使いのデバイスには気圧計が搭載されていないため、位置推定結果が不安定になる可能性があります。";
+"I_Understand" = "了解しました";
+
+"BluetoothOffAlertTitle" = "Bluetoothがオフです";
+"BluetoothOffAlertMessage" = "屋内での位置推定の機能を使うためにはBluetoothをオンにする必要があります。";
+
+"LocationNotAllowedTitle" = "位置情報が許可されていません";
+"LocationNotAllowedMessage" = "屋内での位置推定の機能を使うためには位置情報サービスを許可する必要があります。
+NavCogの設定画面から
+位置情報　→
+このAppの使用中のみ許可
+を選択します。";
+
+"THANKYOU_SENDING" = "アンケートにご協力ありがとうございます。
+データを送信中です...";
+
+//
+"Help" = "ヘルプ";
+"Instructions" = "はじめに";
+"OpenHelp" = "ヘルプページを開く";
+"OpenInstructions" = "はじめにを開く";
+"Back to mode selection" = "モード選択に戻る";
+"Send Feedback" = "フィードバックを送信";
+"feedbackSubject" = "NavCog-フィードバック(%@)";
+"feedbackBody" = "フィードバック内容を記載してください";
+
+"NeedToUpdateAppTitle" = "アプリの更新";
+"NeedToUpdateAppMessage" = "アプリの更新が必要です";
+"OpenAppStore" = "App Storeを開く";
+
+/* Skip to read facility infomation when users pass by */
+"Ignore facility info." = "周辺施設情報を読み上げない";
+
+/* Show POI detail when users change their heading toward the POI */
+"Show POI with Action" = "向いて音声ガイド";
+
+// MARK: Miraikan UI Texts
+// Tabs
+"Call Staff" = "スタッフを呼ぶ";
+"Call SC" = "SCを呼ぶ";
+"Home" = "ホーム";
+"Login" = "ログイン";  // Also used as menu title
+"Ask AI" = "AIに質問";
+
+// pronunciation
+"Call Staff pron" = "スタッフヲヨブ";
+"Call SC pron" = "カガクコミュニケーターヲヨブ";
+"Home pron" = "ホーム";
+"Login pron" = "ログイン";  // Also used as menu title
+"Ask AI pron" = "エーアイニシツモン";
+
+// Menu Section Titles
+"spex" = "特別展";
+"Events" = "イベント";
+"museum_info" = "来館者情報";
+"today_info" = "今日のお知らせ";
+"app_info" = "アプリ";
+
+// Menu Titles
+"Miraikan Today" = "今日の未来館";
+"Permanent Exhibitions" = "常設展示";
+"Current Position" = "現在位置";
+"Reservation" = "予約";
+"Suggested Routes" = "おすすめルート";
+"Floor Plan" = "館内マップ";
+"Neareast Washroom" = "最寄りのトイレ";
+"News" = "ニュース";
+"Settings" = "設定";
+"Miraikan ID My Page" = "Miraikan ID マイページ";
+"About Miraikan" = "日本科学未来館について";
+"About This App" = "このアプリについて";
+"Logout" = "ログアウト";
+
+// Navigation Settings Texts
+"Navi Settings" = "ナビ設定";
+"Current Location" = "現在地";
+"Preview" = "プレビュー";
+"not_located" = "測位範囲外です";
+"Speech Speed Description" = "読み上げ速度";
+"Preview Speed Description" = "プレビュー速度";
+"Pathfinding failed" = "経路探索に失敗しました";
+
+"Run Time" = "上映時間: 約%@分";
+"Reservation required" = "要予約";
+"Reservation required pron" = "ヨウヨヤク";
+"accessibility hour minute" = "%1$@時%2$@分";
+"accessibility hour" = "%@時";
+
+/* Button for navigation */
+"Guide to this exhibition" = "この展示へナビ";
+
+/* Button for navigation */
+"Guide to %@" = "%@へナビゲーション";
+
+/* Button for navigation */
+"can't guide to %@" = "%@は案内できません";
+
+/* Exhibition explanation */
+"Description" = "概要";
+
+/* Exhibition appearance */
+"Overview" = "概観";
+
+// Events
+"place_online" = "場所：オンライン";
+
+// AI Dialog Availability
+"ai_available" = "AIと対話開始します";
+"ai_not_available" = "AI対話は使えません";
+
+// Blank Page
+"blank_description" = "この機能はまだ実装されていません";
+
+// Web Page Loading
+"web_loading" = "ウェブ画面の読み込み中です。\nしばらくお待ちください。";
+"web_failed" = "ウェブ画面の読み込みは失敗しました。";
+
+// Home: No Event / Exhibition Today
+"no_spex" = "本日は特別展示がございません";
+"no_event" = "本日はイベントがございません";
+
+
+// Voice Guide
+"Voice Guide" = "音声ガイド";
+"Voice Guide On" = "音声ガイド\nON";
+"Voice Guide Off" = "音声ガイド\nOFF";
+"btn_prev" = "前の説明";
+"btn_next" = "次の説明";
+"btn_play" = "説明を読み上げる";
+"btn_stop" = "説明の読み上げを中止する";
+
+"Debug Mode" = "デバッグ機能";
+"Move Log" = "移動記録機能";
+"Move Log Start" = "移動\n記録\n開始";
+"Move Log End" = "移動\n記録\n終了";
+"Location information input" = "位置情報入力";
+"Location Input" = "位置\n入力";
+
+"Old Mode" = "旧表示";
+
+"AR Audio interrupt disabled" = "AR音声割り込み無効";
+"AR Distance Limit Invalid" = "AR距離制限無効";
+"AR Camera View" = "ARカメラ画面表示";
+"AR Camera Marker Anchor" = "ARカメラ マーカーアンカー";
+"AR Camera Check Image" = "ARカメラ マーカー画像保存";
+"AR Camera Lock Marker" = "ARカメラ 注視マーカー動作無効";
+"AR stop reading single tap" = "AR読み上げ中断シングルタップ";
+"AR Same reading interval" = "AR同一読み上げ間隔";
+"AR reading interval" = "AR同一読み上げ間隔";
+"AR Marker Test Data" = "ARマーカーテストデータ";
+
+"Playback even in silent mode" = "マナーモードでも再生可能";
+
+"Voice" = "音声";
+"Navigation" = "ナビゲーション";
+"Augmented Reality" = "AR";
+"Debug" = "デバッグ";
+
+"AR marker immediate loading standby" = "ARマーカー即時読み込み待機";
+
+"Log Replaying" = "Log Replaying";
+
+// local push
+"Today's event is over" = "本日のイベントは終了しています";
+"It will start soon. Please head to the venue" = "まもなく開始されます。会場に向かってください";
+"Do you want to be notified before the event starts?" = "イベント開始前の通知を行いますか？";
+"Join the Co-Studio Talk" = "コ・スタジオトークに参加します";
+
+"location unknown" = "現在地が不明です";
+
+"AR navigation" = "ARナビゲーション";
+"Switch to AR navigation" = "ARナビゲーションに切り替え";
+"Do you want to start the Miraikan AR?" = "未来館ARを開始しますか？";
+
+"AR content" = "AR内容";
+
+"Entrance to %@." = "%@ 入り口です。";
+
+"Point your smartphone camera at the ground." = "スマートフォンのカメラを地面に向けてください。";
+
+"While facing the ground, turn left and right slowly and check the following directions." = "地面に向けたまま、ゆっくり左右を回り、次の誘導を確認してください。";
+
+"When facing the ground, please proceed after reaching a position that guides you to the front." = "地面に向けた際には目的に対して、正面に誘導する位置になってから進んでください。";
+
+"With your smartphone's camera facing forward and upwards, slowly turn left and right, looking for sound guidance." = "スマートフォンのカメラを正面、上向きに向けて、ゆっくり左右を回り、音の誘導を探してください。";
+
+"Point your phone's camera at the front and slowly move left and right to look for sound guidance." = "スマートフォンのカメラを正面に向けて、ゆっくり左右を回り、音の誘導を探してください。";
+
+"Audio stops when you tap the screen." = "音声は画面をタップすると停止します。";
+
+"Look for markers on the camera" = "カメラでマーカーを探してください";
+
+// %1$@ 距離, %2$@ 展示名
+"%1$@ to the entrance of %2$@" = "%2$@ 入り口まで %1$@";
+
+"please proceed slowly." = "ゆっくり進んで下さい";
+
+"Turn to the right a little" = "やや右を向いて";
+
+"Turn to the left a little" = "やや左を向いて";
+
+"Exhibitions_List_key" = "展示";
+
+"target marker" = "目標マーカー";
+
+"exposition marker" = "説明マーカー";
+
+"floor marker" = "床マーカー";
+
+"guide marker" = "案内マーカー";
+
+"marker" = "マーカー";
+
+"disabled selection" = "無効選択";
+
+
+
+"Follow" = "-NavCog-";
+
+"%@, you might be going backward." = "%@, 逆方向のようです。";
+
+"%@, you might be going wrong direction." = "%@, 道を間違えたようです";
+
+"After getting off the elevator, %@" = "エレベーターをおりたら、%@";
+
+"AutoDoorPOIString1" = "この先、自動ドアあり。";
+
+"AutoDoorPOIString1Short" = "自動ドアあり。";
+
+"AutoDoorPOIString2" = "この先、自動ドアが%dつ。";
+
+"AutoDoorPOIString2Short" = "自動ドアが%dつ。";
+
+"Back" = "戻る";
+
+"BACK_DIRECTION" = "後ろ方向";
+
+"BothSide" = "両側";
+
+"BrailleBlock" = "点字ブロックあり";
+
+"BrailleBlockPOIString" = "この先、点字ブロックがあります";
+
+"BrailleBlockPOIStringShort" = "点字ブロックあり";
+
+"Cancel" = "キャンセル";
+
+"Caution, %@" = "注意、%@";
+
+"DialogSearch" = "対話検索";
+
+"Disabled" = "%@。無効の";
+
+"Done" = "決定";
+
+"DoorPOIString1" = "この先、ドアあり。";
+
+"DoorPOIString1Short" = "ドアあり。";
+
+"DoorPOIString2" = "この先、ドアが%dつ。";
+
+"DoorPOIString2Short" = "ドアが%dつ。";
+
+"EscalatorSideLeftBackward" = "左側は逆向き、注意してください";
+
+"EscalatorSideLeftForward" = "左側には乗らないでください";
+
+"EscalatorSideRightBackward" = "右側は逆向き、注意してください";
+
+"EscalatorSideRightForward" = "右側には乗らないでください";
+
+"Exercise" = "練習";
+
+"FRONT_DIRECTION" = "前に";
+
+/* basement floor */
+"FloorBasementD" = "地下%@階";
+
+"FloorChangeActionString1Down" = "%1$@をおります";
+
+"FloorChangeActionString1Up" = "%1$@を上がります";
+
+"FloorChangeActionString2Down" = "%1$@を使って%2$@におります";
+
+"FloorChangeActionString2Up" = "%1$@を使って%2$@に上がります";
+
+"FloorChangeActionString3Down" = "%1$@、%2$@の%3$@をおりる";
+
+"FloorChangeActionString3Up" = "%1$@、%2$@の%3$@を上がる";
+
+"FloorChangeActionString4Down" = "%1$@、%2$@の%3$@を使って%4$@へおりる";
+
+"FloorChangeActionString4Up" = "%1$@、%2$@の%3$@を使って%4$@へ上がる";
+
+"FloorChangeDoneActionString2Down" = "%@が終わったら、%@";
+
+"FloorChangeDoneActionString2Up" = "%@が終わったら、%@";
+
+/* floor */
+"FloorD" = "%@階";
+
+"floor -2" = "地下2階";
+"floor -1" = "地下1階";
+"floor 1" = "1階";
+"floor 2" = "2階";
+"floor 3" = "3階";
+"floor 4" = "4階";
+"floor 5" = "5階";
+"floor 6" = "6階";
+"floor 7" = "7階";
+
+/* floor num type */
+"FloorNumType" = "cardinal";
+
+"From_button" = "%@から";
+
+"Go to %1$@" = "%1$@に行きます。";
+
+"ground floor" = "地上階";
+
+"Init Orientation" = "方向の調整
+正しい方向を向きます
+(\"NavCog\"を2本指ロングタップして終了)";
+
+"InMiddle" = "真ん中";
+
+"LEFT_BACK_DIRECTION" = "左、ななめ、後ろ方向";
+
+"LEFT_DIRECTION" = "左方向";
+
+"LEFT_FRONT_DIRECTION" = "左、ななめ、前方向";
+
+"LeftSide" = "左側";
+
+"Locating..." = "現在地を取得中";
+
+"NoBrailleBlockPOIString" = "この先、点字ブロックがなくなります";
+
+"NoBrailleBlockPOIStringShort" = "点字ブロック終了";
+
+"OK" = "OK";
+
+"ObstaclePOIString1" = "この先、%@に障害物あり";
+
+"ObstaclePOIString1Short" = "%@に障害物あり";
+
+"ObstaclePOIString2" = "この先、%@に障害物あり";
+
+"ObstaclePOIString2Short" = "%@に障害物あり";
+
+"Others" = "その他";
+
+"PERIOD" = "。";
+
+"Preview" = "プレビュー";
+
+"RampPOIString" = "この先、スロープがあります";
+
+"RampPOIStringShort" = "スロープあり";
+
+"REROUTING" = "ルートからそれたようです。新しいルートを読み込んでいます。";
+
+"Retry" = "リトライ";
+
+"RIGHT_BACK_DIRECTION" = "右、ななめ、後ろ方向";
+
+"RIGHT_DIRECTION" = "右方向";
+
+"RIGHT_FRONT_DIRECTION" = "右、ななめ、前方向";
+
+"RightSide" = "右側";
+
+"Search" = "検索";
+
+"Search Route" = "ルート検索";
+
+"Settings" = "設定";
+
+"Stop" = "終了";
+
+"Stop Navigation" = "案内終了";
+
+"SummaryHeader" = "この後の案内";
+
+"TTS_PAUSE_CHAR" = "。";
+
+"There is a sign says %@" = "%@という看板があります";
+
+"To_button" = "%@まで";
+
+"Watch your step, %@" = "足元注意、%@";
+
+/* arrived message */
+"You arrived" = "到着しました。";
+
+/* arrived message with destination name */
+"You arrived at %1$@" = "%1$@付近に到着しました。。。お疲れ様でした";
+
+"_nav_building" = "建物";
+
+"_nav_facility" = "施設";
+
+"_nav_latlng" = "現在地";
+
+"_nav_latlng_fix" = "位置";
+
+"_nav_near_shops" = "現在地周辺";
+
+"_nav_select_destination" = "目的地を選択";
+
+"_nav_select_start" = "出発地を選択";
+
+"_nav_toilet_female" = "女性用トイレ";
+
+"_nav_toilet_male" = "男性用トイレ";
+
+"_nav_toilet_multi" = "多機能トイレ";
+
+"action" = "%1$@";
+
+"action at end object" = "突き当たりを%1$@";
+
+"action at near object" = "%2$@のところで%1$@";
+
+"action at warning block" = "警告ブロックのところで%1$@";
+
+"and action" = "%1$@";
+
+/* approaching */
+"approaching" = "そろそろです";
+
+/* approaching to do something */
+"approaching to %@" = "そろそろ%@";
+
+/* head to the diagonally forward left direction */
+"bear left" = "少し左に向く";
+
+/* head to the diagonally forward right direction */
+"bear right" = "少し右に向く";
+
+"destination is" = "%1$@は%2$@です";
+
+/* remaining distance to the destination */
+"destination is in distance" = "%2$@先、%1$@です";
+
+/* distance to a destination name */
+"distance %2$@ to %1$@" = "%1$@まで%2$@";
+
+/* distance to the destination */
+"distance to the destination" = "目的地まで残り%1$@";
+
+"from: %@" = "%@から";
+
+"go straight" = "直進する";
+
+/* something at your degree -22.5 ~ +22.5 */
+"in front of you" = "正面";
+
+/* make turn to -120 ~ -150 */
+"make a big left turn" = "大きく左に曲がる";
+
+/* make turn to +120 ~ +150 */
+"make a big right turn" = "大きく右に曲がる";
+
+/* make turn to -22.5 ~ -60 */
+"make a slight left turn" = "斜め、左に曲がる";
+
+/* make turn to +22.5 ~ +60 */
+"make a slight right turn" = "斜め、右に曲がる";
+
+/* make turn to -180 ~ -180 */
+"make a u-turn to the left" = "左に折り返す";
+
+/* make turn to +150 ~ +180 */
+"make a u-turn to the right" = "右に折り返す";
+
+"name is" = "%2$@に%1$@";
+
+"on %@" = "%@";
+
+/* something at your degree -60 ~ -120 */
+"on your left side" = "左側";
+
+/* something at your degree -150 ~ -180 */
+"on your left side(almost back)" = "左後ろ";
+
+/* something at your degree -120 ~ -150 */
+"on your left side(back)" = "右後ろ";
+
+/* something at your degree -22.5 ~ -60 */
+"on your left side(front)" = "右斜め前";
+
+/* something at your degree +60 ~ +120 */
+"on your right side" = "右側";
+
+/* something at your degree +150 ~ +180 */
+"on your right side(almost back)" = "右後ろ";
+
+/* something at your degree +120 ~ +150 */
+"on your right side(back)" = "右斜め後ろ";
+
+/* something at your degree +22.5 ~ +60 */
+"on your right side(front)" = "右斜め前";
+
+"poi are" = "%2$@に%1$@";
+
+"poi is" = "%2$@に%1$@";
+
+"proceed distance" = "%1$@進む";
+
+"proceed distance ..." = "%1$@進み、";
+
+"proceed distance on floor" = "%2$@。。。%1$@進む";
+
+"proceed distance on floor ..." = "%2$@。。。%1$@進み、";
+
+"proceed distance across the corridor" = "通路を横切って%1$@進む";
+
+"proceed distance across the corridor ..." = "通路を横切って%1$@進み、";
+
+"proceed distance across the corridor on floor" = "%2$@。。。通路を横切って%1$@進む";
+
+"proceed distance across the corridor on floor ..." = "%2$@。。。通路を横切って%1$@進み、";
+
+"remaining distance" = "残り%@";
+
+/* head to the back */
+"turn around" = "後ろを向く";
+
+/* make turn to -60 ~ -120 */
+"turn left" = "左に曲がる";
+
+/* make turn to +60 ~ +120 */
+"turn right" = "右に曲がる";
+
+/* head to the diagonally backward left direction */
+"turn to the backward left" = "後ろに向く";
+
+/* head to the diagonally backward right direction */
+"turn to the backward right" = "後ろに向く";
+
+/* head to the left direction */
+"turn to the left" = "左に向く";
+
+/* head to the right direction */
+"turn to the right" = "右に向く";
+
+/* head to the diagonally forward left direction */
+"turn slightly to the left" = "少し左に向く";
+
+/* head to the diagonally forward right direction */
+"turn slightly to the right" = "少し右に向く";
+
+"InTheFront" = "正面に%@";
+
+"InTheRear" = "後方に%@";
+
+"OnTheLeftSide" = "左側に%@";
+
+"OnTheRightSide" = "右側に%@";
+
+"OnTheLeftRear" = "左後方に%@";
+
+"OnTheRightRear" = "右後方に%@";
+
+"Near" = "%@の近く";
+
+"Always_Background" = "常にバックグラウンドで動作";
+
+"HEADING_CALIBRATION" = "方角を調整するため、周りに注意して、5メートルほど歩いてください。";
+"HEADING_CALIBRATION2" = "方角をより正確にするにはもう少し歩きます。";
+"HEADING_CALIBRATION3" = "方角は調整されました。";
+
+"NO_AVAILABLE_LOCATION" = "位置情報が利用可能ではありません";
+
+"The slant left direction" = "斜め左方向";
+
+"The slant right direction" = "斜め右方向";
+
+"slightly to the left" = "やや左方向";
+
+"slightly to the right" = "やや右方向";
+
+"clock position %@" =  "%@時の方向";
+
+"No destinations" = "目的地がありません";

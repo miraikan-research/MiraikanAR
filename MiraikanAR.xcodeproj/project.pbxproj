@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225628BD77F921F428D5B002 /* Pods_MiraikanAR_MiraikanARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE5B3365C0C516AC8575E69 /* Pods_MiraikanAR_MiraikanARUITests.framework */; };
+		5C19705BBC0386BD26763F3F /* Pods_MiraikanARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00CAA2569AEFAF195E117E4 /* Pods_MiraikanARTests.framework */; };
+		E50A59D72AA6BCC3002A44AB /* BlindView.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = E50A59D92AA6BCC3002A44AB /* BlindView.stringsdict */; };
+		E50A59DD2AA6C25A002A44AB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A59DC2AA6C25A002A44AB /* HomeView.swift */; };
+		E50A5A152AA6D00B002A44AB /* MiraikanARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A142AA6D00B002A44AB /* MiraikanARApp.swift */; };
+		E50A5A172AA70896002A44AB /* AboutAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A162AA70896002A44AB /* AboutAppView.swift */; };
+		E50A5A192AA71965002A44AB /* AboutMiraikanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A182AA71965002A44AB /* AboutMiraikanView.swift */; };
+		E50A5A1B2AA719EA002A44AB /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A1A2AA719EA002A44AB /* Host.swift */; };
+		E50A5A1D2AA84487002A44AB /* ARMessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A1C2AA84487002A44AB /* ARMessageListView.swift */; };
+		E50A5A1F2AA84532002A44AB /* ARGuideRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A1E2AA84532002A44AB /* ARGuideRow.swift */; };
+		E50A5A212AA8464A002A44AB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A202AA8464A002A44AB /* UIColorExtension.swift */; };
+		E50A5A232AA846CF002A44AB /* GuideLanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A222AA846CF002A44AB /* GuideLanguageModel.swift */; };
+		E50A5A292AA849AC002A44AB /* NavDeviceTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A282AA849AC002A44AB /* NavDeviceTTS.m */; };
+		E50A5A2C2AA84D34002A44AB /* DefaultTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A2B2AA84D34002A44AB /* DefaultTTS.m */; };
+		E50A5A302AA84D8E002A44AB /* NavSound.m in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A2F2AA84D8E002A44AB /* NavSound.m */; };
+		E50A5A322AA84E9B002A44AB /* DefaultTTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A312AA84E9B002A44AB /* DefaultTTS.swift */; };
+		E50A5A342AA855DD002A44AB /* ArAnchorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A332AA855DD002A44AB /* ArAnchorManager.swift */; };
+		E50A5A362AA85623002A44AB /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A352AA85623002A44AB /* MotionManager.swift */; };
+		E50A5A382AA85663002A44AB /* InquiryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A372AA85663002A44AB /* InquiryManager.swift */; };
+		E50A5A3D2AA85BFF002A44AB /* ArVoiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A3C2AA85BFF002A44AB /* ArVoiceManager.swift */; };
+		E50A5A402AA86255002A44AB /* NavDebugHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E50A5A3F2AA86255002A44AB /* NavDebugHelper.m */; };
+		E55C903F2930547B001033AF /* SoundEffect01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E55C903D2930547B001033AF /* SoundEffect01.mp3 */; };
+		E57DBE19293DA77B0037DD6F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57DBE18293DA77B0037DD6F /* LocationManager.swift */; };
+		E57DBE202940714A0037DD6F /* SoundEffect02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E57DBE1F2940714A0037DD6F /* SoundEffect02.mp3 */; };
+		E57DBE262942D8360037DD6F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E57DBE282942D8360037DD6F /* Localizable.strings */; };
+		E57DBE2B2942F79E0037DD6F /* VoiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57DBE2A2942F79E0037DD6F /* VoiceModel.swift */; };
+		E58645102925FB1000CBC372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586450F2925FB1000CBC372 /* AppDelegate.swift */; };
+		E58645122925FB1000CBC372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645112925FB1000CBC372 /* SceneDelegate.swift */; };
+		E58645192925FB1100CBC372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58645182925FB1100CBC372 /* Assets.xcassets */; };
+		E586451C2925FB1100CBC372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E586451A2925FB1100CBC372 /* LaunchScreen.storyboard */; };
+		E58645272925FB1100CBC372 /* MiraikanARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645262925FB1100CBC372 /* MiraikanARTests.swift */; };
+		E58645312925FB1100CBC372 /* MiraikanARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645302925FB1100CBC372 /* MiraikanARUITests.swift */; };
+		E58645332925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645322925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift */; };
+		E58645552926034C00CBC372 /* MarkerWorldTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E58645532926034C00CBC372 /* MarkerWorldTransform.m */; };
+		E58645562926034C00CBC372 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E58645542926034C00CBC372 /* OpenCVWrapper.mm */; };
+		E586455B292604F500CBC372 /* GuidanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5864557292604F500CBC372 /* GuidanceModel.swift */; };
+		E586455C292604F500CBC372 /* PhonationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5864558292604F500CBC372 /* PhonationModel.swift */; };
+		E586455D292604F500CBC372 /* ArUcoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5864559292604F500CBC372 /* ArUcoModel.swift */; };
+		E58645642926052000CBC372 /* MiraikanUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586455F2926052000CBC372 /* MiraikanUtil.swift */; };
+		E58645652926052000CBC372 /* StrUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645602926052000CBC372 /* StrUtil.swift */; };
+		E58645662926052000CBC372 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645612926052000CBC372 /* AudioManager.swift */; };
+		E58645672926052000CBC372 /* ArUcoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645622926052000CBC372 /* ArUcoManager.swift */; };
+		E58645682926052000CBC372 /* ArManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645632926052000CBC372 /* ArManager.swift */; };
+		E586456E2926054000CBC372 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586456A2926054000CBC372 /* ARViewController.swift */; };
+		E58645702926054000CBC372 /* IDListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E586456C2926054000CBC372 /* IDListViewController.swift */; };
+		E58645722926055800CBC372 /* ArUco.json in Resources */ = {isa = PBXBuildFile; fileRef = E58645712926055800CBC372 /* ArUco.json */; };
+		E5E885C42AB03541009D2F68 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E885C32AB03541009D2F68 /* SwitchView.swift */; };
+		E5E885C62AB039BA009D2F68 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E885C52AB039BA009D2F68 /* SettingView.swift */; };
+		E5E885C82AB047A8009D2F68 /* ArUcoMiraikan.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E885C72AB047A8009D2F68 /* ArUcoMiraikan.json */; };
+		E5E885CA2AB14730009D2F68 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E885C92AB14730009D2F68 /* SliderView.swift */; };
+		E5E885CC2AB14F5B009D2F68 /* SliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E885CB2AB14F5B009D2F68 /* SliderModel.swift */; };
+		E5E885D22AB2BE81009D2F68 /* AccessibilityLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E885D12AB2BE81009D2F68 /* AccessibilityLabel.swift */; };
+		E5E885E02ABA8A48009D2F68 /* ARMarkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E885DF2ABA8A48009D2F68 /* ARMarkerViewController.swift */; };
+		EBE642FD421879D62BC1E0F7 /* Pods_MiraikanAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCF18969545E6FEE5B41958 /* Pods_MiraikanAR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E58645232925FB1100CBC372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58645042925FB1000CBC372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E586450B2925FB1000CBC372;
+			remoteInfo = MiraikanAR;
+		};
+		E586452D2925FB1100CBC372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58645042925FB1000CBC372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E586450B2925FB1000CBC372;
+			remoteInfo = MiraikanAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11710C9AC269B28E325A8F1F /* Pods-MiraikanAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraikanAR.debug.xcconfig"; path = "Target Support Files/Pods-MiraikanAR/Pods-MiraikanAR.debug.xcconfig"; sourceTree = "<group>"; };
+		3BE5B3365C0C516AC8575E69 /* Pods_MiraikanAR_MiraikanARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiraikanAR_MiraikanARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401F51E69DCE6581BA270589 /* Pods-MiraikanAR-MiraikanARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraikanAR-MiraikanARUITests.debug.xcconfig"; path = "Target Support Files/Pods-MiraikanAR-MiraikanARUITests/Pods-MiraikanAR-MiraikanARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		570AB9BEC25CFC901425B82B /* Pods-MiraikanARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraikanARTests.release.xcconfig"; path = "Target Support Files/Pods-MiraikanARTests/Pods-MiraikanARTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CCF18969545E6FEE5B41958 /* Pods_MiraikanAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiraikanAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81899E176837F435FD86FBDA /* Pods-MiraikanAR-MiraikanARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraikanAR-MiraikanARUITests.release.xcconfig"; path = "Target Support Files/Pods-MiraikanAR-MiraikanARUITests/Pods-MiraikanAR-MiraikanARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD10C5ACB93875D01EEC6544 /* Pods-MiraikanAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraikanAR.release.xcconfig"; path = "Target Support Files/Pods-MiraikanAR/Pods-MiraikanAR.release.xcconfig"; sourceTree = "<group>"; };
+		C0B0B3230809418DF8878CF9 /* Pods-MiraikanARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiraikanARTests.debug.xcconfig"; path = "Target Support Files/Pods-MiraikanARTests/Pods-MiraikanARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E00CAA2569AEFAF195E117E4 /* Pods_MiraikanARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiraikanARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50A59D82AA6BCC3002A44AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/BlindView.stringsdict; sourceTree = "<group>"; };
+		E50A59DA2AA6BCCB002A44AB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ja; path = ja.lproj/BlindView.stringsdict; sourceTree = "<group>"; };
+		E50A59DC2AA6C25A002A44AB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E50A5A142AA6D00B002A44AB /* MiraikanARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraikanARApp.swift; sourceTree = "<group>"; };
+		E50A5A162AA70896002A44AB /* AboutAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppView.swift; sourceTree = "<group>"; };
+		E50A5A182AA71965002A44AB /* AboutMiraikanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMiraikanView.swift; sourceTree = "<group>"; };
+		E50A5A1A2AA719EA002A44AB /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		E50A5A1C2AA84487002A44AB /* ARMessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMessageListView.swift; sourceTree = "<group>"; };
+		E50A5A1E2AA84532002A44AB /* ARGuideRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGuideRow.swift; sourceTree = "<group>"; };
+		E50A5A202AA8464A002A44AB /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E50A5A222AA846CF002A44AB /* GuideLanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideLanguageModel.swift; sourceTree = "<group>"; };
+		E50A5A272AA8498F002A44AB /* NavDeviceTTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavDeviceTTS.h; sourceTree = "<group>"; };
+		E50A5A282AA849AC002A44AB /* NavDeviceTTS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavDeviceTTS.m; sourceTree = "<group>"; };
+		E50A5A2A2AA84B43002A44AB /* LocationEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationEvent.h; sourceTree = "<group>"; };
+		E50A5A2B2AA84D34002A44AB /* DefaultTTS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultTTS.m; sourceTree = "<group>"; };
+		E50A5A2D2AA84D41002A44AB /* DefaultTTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultTTS.h; sourceTree = "<group>"; };
+		E50A5A2E2AA84D84002A44AB /* NavSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavSound.h; sourceTree = "<group>"; };
+		E50A5A2F2AA84D8E002A44AB /* NavSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavSound.m; sourceTree = "<group>"; };
+		E50A5A312AA84E9B002A44AB /* DefaultTTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTTS.swift; sourceTree = "<group>"; };
+		E50A5A332AA855DD002A44AB /* ArAnchorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArAnchorManager.swift; sourceTree = "<group>"; };
+		E50A5A352AA85623002A44AB /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		E50A5A372AA85663002A44AB /* InquiryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryManager.swift; sourceTree = "<group>"; };
+		E50A5A3C2AA85BFF002A44AB /* ArVoiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArVoiceManager.swift; sourceTree = "<group>"; };
+		E50A5A3E2AA8624B002A44AB /* NavDebugHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavDebugHelper.h; sourceTree = "<group>"; };
+		E50A5A3F2AA86255002A44AB /* NavDebugHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavDebugHelper.m; sourceTree = "<group>"; };
+		E55C903D2930547B001033AF /* SoundEffect01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SoundEffect01.mp3; sourceTree = "<group>"; };
+		E57DBE18293DA77B0037DD6F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E57DBE1F2940714A0037DD6F /* SoundEffect02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SoundEffect02.mp3; sourceTree = "<group>"; };
+		E57DBE272942D8360037DD6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E57DBE292942D8AE0037DD6F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E57DBE2A2942F79E0037DD6F /* VoiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceModel.swift; sourceTree = "<group>"; };
+		E586450C2925FB1000CBC372 /* MiraikanAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiraikanAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586450F2925FB1000CBC372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E58645112925FB1000CBC372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E58645182925FB1100CBC372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E586451B2925FB1100CBC372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E586451D2925FB1100CBC372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58645222925FB1100CBC372 /* MiraikanARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraikanARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58645262925FB1100CBC372 /* MiraikanARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraikanARTests.swift; sourceTree = "<group>"; };
+		E586452C2925FB1100CBC372 /* MiraikanARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraikanARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58645302925FB1100CBC372 /* MiraikanARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraikanARUITests.swift; sourceTree = "<group>"; };
+		E58645322925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraikanARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E58645502926034C00CBC372 /* MiraikanAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiraikanAR-Bridging-Header.h"; sourceTree = "<group>"; };
+		E58645512926034C00CBC372 /* MarkerWorldTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerWorldTransform.h; sourceTree = "<group>"; };
+		E58645522926034C00CBC372 /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		E58645532926034C00CBC372 /* MarkerWorldTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerWorldTransform.m; sourceTree = "<group>"; };
+		E58645542926034C00CBC372 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		E5864557292604F500CBC372 /* GuidanceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidanceModel.swift; sourceTree = "<group>"; };
+		E5864558292604F500CBC372 /* PhonationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonationModel.swift; sourceTree = "<group>"; };
+		E5864559292604F500CBC372 /* ArUcoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArUcoModel.swift; sourceTree = "<group>"; };
+		E586455F2926052000CBC372 /* MiraikanUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiraikanUtil.swift; sourceTree = "<group>"; };
+		E58645602926052000CBC372 /* StrUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrUtil.swift; sourceTree = "<group>"; };
+		E58645612926052000CBC372 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		E58645622926052000CBC372 /* ArUcoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArUcoManager.swift; sourceTree = "<group>"; };
+		E58645632926052000CBC372 /* ArManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArManager.swift; sourceTree = "<group>"; };
+		E586456A2926054000CBC372 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		E586456C2926054000CBC372 /* IDListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDListViewController.swift; sourceTree = "<group>"; };
+		E58645712926055800CBC372 /* ArUco.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArUco.json; sourceTree = "<group>"; };
+		E5E885C32AB03541009D2F68 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		E5E885C52AB039BA009D2F68 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		E5E885C72AB047A8009D2F68 /* ArUcoMiraikan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArUcoMiraikan.json; sourceTree = "<group>"; };
+		E5E885C92AB14730009D2F68 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		E5E885CB2AB14F5B009D2F68 /* SliderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderModel.swift; sourceTree = "<group>"; };
+		E5E885D12AB2BE81009D2F68 /* AccessibilityLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityLabel.swift; sourceTree = "<group>"; };
+		E5E885DF2ABA8A48009D2F68 /* ARMarkerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMarkerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58645092925FB1000CBC372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE642FD421879D62BC1E0F7 /* Pods_MiraikanAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586451F2925FB1100CBC372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C19705BBC0386BD26763F3F /* Pods_MiraikanARTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58645292925FB1100CBC372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225628BD77F921F428D5B002 /* Pods_MiraikanAR_MiraikanARUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C86D1B4DF34048B06D86E7F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CCF18969545E6FEE5B41958 /* Pods_MiraikanAR.framework */,
+				3BE5B3365C0C516AC8575E69 /* Pods_MiraikanAR_MiraikanARUITests.framework */,
+				E00CAA2569AEFAF195E117E4 /* Pods_MiraikanARTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E50A59DB2AA6C23E002A44AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885D42AB2CAC9009D2F68 /* SwiftUI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E50A5A262AA84977002A44AB /* NavCog3 */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885DD2ABA83D6009D2F68 /* dialog */,
+				E5E885DC2ABA8398009D2F68 /* navigation */,
+				E5E885DE2ABA83EE009D2F68 /* helper */,
+				E50A5A2A2AA84B43002A44AB /* LocationEvent.h */,
+			);
+			path = NavCog3;
+			sourceTree = "<group>";
+		};
+		E58645032925FB1000CBC372 = {
+			isa = PBXGroup;
+			children = (
+				E586450E2925FB1000CBC372 /* MiraikanAR */,
+				E58645252925FB1100CBC372 /* MiraikanARTests */,
+				E586452F2925FB1100CBC372 /* MiraikanARUITests */,
+				E586450D2925FB1000CBC372 /* Products */,
+				FB3AEAFE8EDB94007FBFF132 /* Pods */,
+				C86D1B4DF34048B06D86E7F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E586450D2925FB1000CBC372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E586450C2925FB1000CBC372 /* MiraikanAR.app */,
+				E58645222925FB1100CBC372 /* MiraikanARTests.xctest */,
+				E586452C2925FB1100CBC372 /* MiraikanARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E586450E2925FB1000CBC372 /* MiraikanAR */ = {
+			isa = PBXGroup;
+			children = (
+				E586450F2925FB1000CBC372 /* AppDelegate.swift */,
+				E58645112925FB1000CBC372 /* SceneDelegate.swift */,
+				E50A5A142AA6D00B002A44AB /* MiraikanARApp.swift */,
+				E5E885DA2ABA82B4009D2F68 /* Miraikan */,
+				E50A5A262AA84977002A44AB /* NavCog3 */,
+				E586454C2926031500CBC372 /* Resource */,
+				E586454B2926030B00CBC372 /* library */,
+				E58645182925FB1100CBC372 /* Assets.xcassets */,
+				E586451A2925FB1100CBC372 /* LaunchScreen.storyboard */,
+				E586451D2925FB1100CBC372 /* Info.plist */,
+			);
+			path = MiraikanAR;
+			sourceTree = "<group>";
+		};
+		E58645252925FB1100CBC372 /* MiraikanARTests */ = {
+			isa = PBXGroup;
+			children = (
+				E58645262925FB1100CBC372 /* MiraikanARTests.swift */,
+			);
+			path = MiraikanARTests;
+			sourceTree = "<group>";
+		};
+		E586452F2925FB1100CBC372 /* MiraikanARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E58645302925FB1100CBC372 /* MiraikanARUITests.swift */,
+				E58645322925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift */,
+			);
+			path = MiraikanARUITests;
+			sourceTree = "<group>";
+		};
+		E586454B2926030B00CBC372 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				E58645502926034C00CBC372 /* MiraikanAR-Bridging-Header.h */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		E586454C2926031500CBC372 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E58645712926055800CBC372 /* ArUco.json */,
+				E5E885C72AB047A8009D2F68 /* ArUcoMiraikan.json */,
+				E57DBE282942D8360037DD6F /* Localizable.strings */,
+				E55C903D2930547B001033AF /* SoundEffect01.mp3 */,
+				E57DBE1F2940714A0037DD6F /* SoundEffect02.mp3 */,
+				E50A59D92AA6BCC3002A44AB /* BlindView.stringsdict */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E586454D2926031D00CBC372 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885D72AB2CB29009D2F68 /* Extension */,
+				E5E885C12AB03300009D2F68 /* Manager */,
+				E586455F2926052000CBC372 /* MiraikanUtil.swift */,
+				E58645602926052000CBC372 /* StrUtil.swift */,
+				E50A5A1A2AA719EA002A44AB /* Host.swift */,
+				E50A5A312AA84E9B002A44AB /* DefaultTTS.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E586454E2926032600CBC372 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885D52AB2CAED009D2F68 /* Ar */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		E586454F2926032D00CBC372 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5864559292604F500CBC372 /* ArUcoModel.swift */,
+				E5864557292604F500CBC372 /* GuidanceModel.swift */,
+				E57DBE2A2942F79E0037DD6F /* VoiceModel.swift */,
+				E5864558292604F500CBC372 /* PhonationModel.swift */,
+				E50A5A222AA846CF002A44AB /* GuideLanguageModel.swift */,
+				E5E885CB2AB14F5B009D2F68 /* SliderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5E885C12AB03300009D2F68 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E58645632926052000CBC372 /* ArManager.swift */,
+				E58645622926052000CBC372 /* ArUcoManager.swift */,
+				E58645612926052000CBC372 /* AudioManager.swift */,
+				E57DBE18293DA77B0037DD6F /* LocationManager.swift */,
+				E50A5A332AA855DD002A44AB /* ArAnchorManager.swift */,
+				E50A5A352AA85623002A44AB /* MotionManager.swift */,
+				E50A5A372AA85663002A44AB /* InquiryManager.swift */,
+				E50A5A3C2AA85BFF002A44AB /* ArVoiceManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E5E885C22AB03513009D2F68 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885D92AB2CB7E009D2F68 /* Parts */,
+				E5E885D32AB2CAAA009D2F68 /* SwiftUI */,
+				E50A59DB2AA6C23E002A44AB /* View */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E5E885D32AB2CAAA009D2F68 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885C32AB03541009D2F68 /* SwitchView.swift */,
+				E5E885C92AB14730009D2F68 /* SliderView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		E5E885D42AB2CAC9009D2F68 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				E50A59DC2AA6C25A002A44AB /* HomeView.swift */,
+				E50A5A162AA70896002A44AB /* AboutAppView.swift */,
+				E50A5A182AA71965002A44AB /* AboutMiraikanView.swift */,
+				E5E885C52AB039BA009D2F68 /* SettingView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		E5E885D52AB2CAED009D2F68 /* Ar */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885DF2ABA8A48009D2F68 /* ARMarkerViewController.swift */,
+				E586456A2926054000CBC372 /* ARViewController.swift */,
+				E586456C2926054000CBC372 /* IDListViewController.swift */,
+				E50A5A1C2AA84487002A44AB /* ARMessageListView.swift */,
+			);
+			path = Ar;
+			sourceTree = "<group>";
+		};
+		E5E885D72AB2CB29009D2F68 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E50A5A202AA8464A002A44AB /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E5E885D82AB2CB6B009D2F68 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E50A5A1E2AA84532002A44AB /* ARGuideRow.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E5E885D92AB2CB7E009D2F68 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885D12AB2BE81009D2F68 /* AccessibilityLabel.swift */,
+				E5E885D82AB2CB6B009D2F68 /* TableViewCell */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		E5E885DA2ABA82B4009D2F68 /* Miraikan */ = {
+			isa = PBXGroup;
+			children = (
+				E5E885C22AB03513009D2F68 /* Components */,
+				E586454E2926032600CBC372 /* Contents */,
+				E586454F2926032D00CBC372 /* Model */,
+				E586454D2926031D00CBC372 /* Utils */,
+			);
+			path = Miraikan;
+			sourceTree = "<group>";
+		};
+		E5E885DC2ABA8398009D2F68 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E50A5A272AA8498F002A44AB /* NavDeviceTTS.h */,
+				E50A5A282AA849AC002A44AB /* NavDeviceTTS.m */,
+				E50A5A2E2AA84D84002A44AB /* NavSound.h */,
+				E50A5A2F2AA84D8E002A44AB /* NavSound.m */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		E5E885DD2ABA83D6009D2F68 /* dialog */ = {
+			isa = PBXGroup;
+			children = (
+				E50A5A2D2AA84D41002A44AB /* DefaultTTS.h */,
+				E50A5A2B2AA84D34002A44AB /* DefaultTTS.m */,
+			);
+			path = dialog;
+			sourceTree = "<group>";
+		};
+		E5E885DE2ABA83EE009D2F68 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				E50A5A3E2AA8624B002A44AB /* NavDebugHelper.h */,
+				E50A5A3F2AA86255002A44AB /* NavDebugHelper.m */,
+				E58645512926034C00CBC372 /* MarkerWorldTransform.h */,
+				E58645532926034C00CBC372 /* MarkerWorldTransform.m */,
+				E58645522926034C00CBC372 /* OpenCVWrapper.h */,
+				E58645542926034C00CBC372 /* OpenCVWrapper.mm */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		FB3AEAFE8EDB94007FBFF132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11710C9AC269B28E325A8F1F /* Pods-MiraikanAR.debug.xcconfig */,
+				AD10C5ACB93875D01EEC6544 /* Pods-MiraikanAR.release.xcconfig */,
+				401F51E69DCE6581BA270589 /* Pods-MiraikanAR-MiraikanARUITests.debug.xcconfig */,
+				81899E176837F435FD86FBDA /* Pods-MiraikanAR-MiraikanARUITests.release.xcconfig */,
+				C0B0B3230809418DF8878CF9 /* Pods-MiraikanARTests.debug.xcconfig */,
+				570AB9BEC25CFC901425B82B /* Pods-MiraikanARTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E586450B2925FB1000CBC372 /* MiraikanAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58645362925FB1100CBC372 /* Build configuration list for PBXNativeTarget "MiraikanAR" */;
+			buildPhases = (
+				5AC67FF3F2025ACBDCCA3070 /* [CP] Check Pods Manifest.lock */,
+				E58645082925FB1000CBC372 /* Sources */,
+				E58645092925FB1000CBC372 /* Frameworks */,
+				E586450A2925FB1000CBC372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiraikanAR;
+			productName = MiraikanAR;
+			productReference = E586450C2925FB1000CBC372 /* MiraikanAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E58645212925FB1100CBC372 /* MiraikanARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58645392925FB1100CBC372 /* Build configuration list for PBXNativeTarget "MiraikanARTests" */;
+			buildPhases = (
+				E526A03170C43A137496519A /* [CP] Check Pods Manifest.lock */,
+				E586451E2925FB1100CBC372 /* Sources */,
+				E586451F2925FB1100CBC372 /* Frameworks */,
+				E58645202925FB1100CBC372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58645242925FB1100CBC372 /* PBXTargetDependency */,
+			);
+			name = MiraikanARTests;
+			productName = MiraikanARTests;
+			productReference = E58645222925FB1100CBC372 /* MiraikanARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E586452B2925FB1100CBC372 /* MiraikanARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E586453C2925FB1100CBC372 /* Build configuration list for PBXNativeTarget "MiraikanARUITests" */;
+			buildPhases = (
+				D873A5549FF606D234878F3E /* [CP] Check Pods Manifest.lock */,
+				E58645282925FB1100CBC372 /* Sources */,
+				E58645292925FB1100CBC372 /* Frameworks */,
+				E586452A2925FB1100CBC372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E586452E2925FB1100CBC372 /* PBXTargetDependency */,
+			);
+			name = MiraikanARUITests;
+			productName = MiraikanARUITests;
+			productReference = E586452C2925FB1100CBC372 /* MiraikanARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58645042925FB1000CBC372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E586450B2925FB1000CBC372 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					E58645212925FB1100CBC372 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E586450B2925FB1000CBC372;
+					};
+					E586452B2925FB1100CBC372 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E586450B2925FB1000CBC372;
+					};
+				};
+			};
+			buildConfigurationList = E58645072925FB1000CBC372 /* Build configuration list for PBXProject "MiraikanAR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = E58645032925FB1000CBC372;
+			productRefGroup = E586450D2925FB1000CBC372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E586450B2925FB1000CBC372 /* MiraikanAR */,
+				E58645212925FB1100CBC372 /* MiraikanARTests */,
+				E586452B2925FB1100CBC372 /* MiraikanARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E586450A2925FB1000CBC372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55C903F2930547B001033AF /* SoundEffect01.mp3 in Resources */,
+				E58645722926055800CBC372 /* ArUco.json in Resources */,
+				E586451C2925FB1100CBC372 /* LaunchScreen.storyboard in Resources */,
+				E57DBE262942D8360037DD6F /* Localizable.strings in Resources */,
+				E58645192925FB1100CBC372 /* Assets.xcassets in Resources */,
+				E50A59D72AA6BCC3002A44AB /* BlindView.stringsdict in Resources */,
+				E5E885C82AB047A8009D2F68 /* ArUcoMiraikan.json in Resources */,
+				E57DBE202940714A0037DD6F /* SoundEffect02.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58645202925FB1100CBC372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586452A2925FB1100CBC372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AC67FF3F2025ACBDCCA3070 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiraikanAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D873A5549FF606D234878F3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiraikanAR-MiraikanARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E526A03170C43A137496519A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiraikanARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58645082925FB1000CBC372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58645702926054000CBC372 /* IDListViewController.swift in Sources */,
+				E50A5A1B2AA719EA002A44AB /* Host.swift in Sources */,
+				E50A5A1F2AA84532002A44AB /* ARGuideRow.swift in Sources */,
+				E50A5A2C2AA84D34002A44AB /* DefaultTTS.m in Sources */,
+				E57DBE19293DA77B0037DD6F /* LocationManager.swift in Sources */,
+				E50A5A172AA70896002A44AB /* AboutAppView.swift in Sources */,
+				E5E885D22AB2BE81009D2F68 /* AccessibilityLabel.swift in Sources */,
+				E586455D292604F500CBC372 /* ArUcoModel.swift in Sources */,
+				E58645562926034C00CBC372 /* OpenCVWrapper.mm in Sources */,
+				E58645672926052000CBC372 /* ArUcoManager.swift in Sources */,
+				E58645552926034C00CBC372 /* MarkerWorldTransform.m in Sources */,
+				E50A5A292AA849AC002A44AB /* NavDeviceTTS.m in Sources */,
+				E58645652926052000CBC372 /* StrUtil.swift in Sources */,
+				E586455B292604F500CBC372 /* GuidanceModel.swift in Sources */,
+				E5E885E02ABA8A48009D2F68 /* ARMarkerViewController.swift in Sources */,
+				E57DBE2B2942F79E0037DD6F /* VoiceModel.swift in Sources */,
+				E50A5A232AA846CF002A44AB /* GuideLanguageModel.swift in Sources */,
+				E50A5A192AA71965002A44AB /* AboutMiraikanView.swift in Sources */,
+				E50A5A362AA85623002A44AB /* MotionManager.swift in Sources */,
+				E58645102925FB1000CBC372 /* AppDelegate.swift in Sources */,
+				E50A5A402AA86255002A44AB /* NavDebugHelper.m in Sources */,
+				E58645642926052000CBC372 /* MiraikanUtil.swift in Sources */,
+				E5E885C42AB03541009D2F68 /* SwitchView.swift in Sources */,
+				E50A5A302AA84D8E002A44AB /* NavSound.m in Sources */,
+				E586455C292604F500CBC372 /* PhonationModel.swift in Sources */,
+				E50A5A322AA84E9B002A44AB /* DefaultTTS.swift in Sources */,
+				E586456E2926054000CBC372 /* ARViewController.swift in Sources */,
+				E50A5A1D2AA84487002A44AB /* ARMessageListView.swift in Sources */,
+				E5E885CA2AB14730009D2F68 /* SliderView.swift in Sources */,
+				E50A5A212AA8464A002A44AB /* UIColorExtension.swift in Sources */,
+				E50A5A342AA855DD002A44AB /* ArAnchorManager.swift in Sources */,
+				E5E885C62AB039BA009D2F68 /* SettingView.swift in Sources */,
+				E58645682926052000CBC372 /* ArManager.swift in Sources */,
+				E5E885CC2AB14F5B009D2F68 /* SliderModel.swift in Sources */,
+				E50A5A382AA85663002A44AB /* InquiryManager.swift in Sources */,
+				E50A5A3D2AA85BFF002A44AB /* ArVoiceManager.swift in Sources */,
+				E58645662926052000CBC372 /* AudioManager.swift in Sources */,
+				E58645122925FB1000CBC372 /* SceneDelegate.swift in Sources */,
+				E50A5A152AA6D00B002A44AB /* MiraikanARApp.swift in Sources */,
+				E50A59DD2AA6C25A002A44AB /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E586451E2925FB1100CBC372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58645272925FB1100CBC372 /* MiraikanARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58645282925FB1100CBC372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58645312925FB1100CBC372 /* MiraikanARUITests.swift in Sources */,
+				E58645332925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E58645242925FB1100CBC372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E586450B2925FB1000CBC372 /* MiraikanAR */;
+			targetProxy = E58645232925FB1100CBC372 /* PBXContainerItemProxy */;
+		};
+		E586452E2925FB1100CBC372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E586450B2925FB1000CBC372 /* MiraikanAR */;
+			targetProxy = E586452D2925FB1100CBC372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E50A59D92AA6BCC3002A44AB /* BlindView.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E50A59D82AA6BCC3002A44AB /* en */,
+				E50A59DA2AA6BCCB002A44AB /* ja */,
+			);
+			name = BlindView.stringsdict;
+			sourceTree = "<group>";
+		};
+		E57DBE282942D8360037DD6F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57DBE272942D8360037DD6F /* en */,
+				E57DBE292942D8AE0037DD6F /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E586451A2925FB1100CBC372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E586451B2925FB1100CBC372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E58645342925FB1100CBC372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E58645352925FB1100CBC372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58645372925FB1100CBC372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11710C9AC269B28E325A8F1F /* Pods-MiraikanAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H84S8WFTWG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MiraikanAR",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiraikanAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.miraikan.MiraikanAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MiraikanAR/library/MiraikanAR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E58645382925FB1100CBC372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD10C5ACB93875D01EEC6544 /* Pods-MiraikanAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H84S8WFTWG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MiraikanAR",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiraikanAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.miraikan.MiraikanAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MiraikanAR/library/MiraikanAR-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E586453A2925FB1100CBC372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B0B3230809418DF8878CF9 /* Pods-MiraikanARTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 663GZ69DZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.miraikan.MiraikanARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiraikanAR.app/MiraikanAR";
+			};
+			name = Debug;
+		};
+		E586453B2925FB1100CBC372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570AB9BEC25CFC901425B82B /* Pods-MiraikanARTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 663GZ69DZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.miraikan.MiraikanARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiraikanAR.app/MiraikanAR";
+			};
+			name = Release;
+		};
+		E586453D2925FB1100CBC372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401F51E69DCE6581BA270589 /* Pods-MiraikanAR-MiraikanARUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 663GZ69DZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.miraikan.MiraikanARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiraikanAR;
+			};
+			name = Debug;
+		};
+		E586453E2925FB1100CBC372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81899E176837F435FD86FBDA /* Pods-MiraikanAR-MiraikanARUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 663GZ69DZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lab.miraikan.MiraikanARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiraikanAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58645072925FB1000CBC372 /* Build configuration list for PBXProject "MiraikanAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58645342925FB1100CBC372 /* Debug */,
+				E58645352925FB1100CBC372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58645362925FB1100CBC372 /* Build configuration list for PBXNativeTarget "MiraikanAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58645372925FB1100CBC372 /* Debug */,
+				E58645382925FB1100CBC372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58645392925FB1100CBC372 /* Build configuration list for PBXNativeTarget "MiraikanARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E586453A2925FB1100CBC372 /* Debug */,
+				E586453B2925FB1100CBC372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E586453C2925FB1100CBC372 /* Build configuration list for PBXNativeTarget "MiraikanARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E586453D2925FB1100CBC372 /* Debug */,
+				E586453E2925FB1100CBC372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E58645042925FB1000CBC372 /* Project object */;
+}
