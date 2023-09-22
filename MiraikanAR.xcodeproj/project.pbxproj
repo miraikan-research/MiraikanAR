@@ -37,9 +37,6 @@
 		E58645122925FB1000CBC372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645112925FB1000CBC372 /* SceneDelegate.swift */; };
 		E58645192925FB1100CBC372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58645182925FB1100CBC372 /* Assets.xcassets */; };
 		E586451C2925FB1100CBC372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E586451A2925FB1100CBC372 /* LaunchScreen.storyboard */; };
-		E58645272925FB1100CBC372 /* MiraikanARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645262925FB1100CBC372 /* MiraikanARTests.swift */; };
-		E58645312925FB1100CBC372 /* MiraikanARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645302925FB1100CBC372 /* MiraikanARUITests.swift */; };
-		E58645332925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58645322925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift */; };
 		E58645552926034C00CBC372 /* MarkerWorldTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E58645532926034C00CBC372 /* MarkerWorldTransform.m */; };
 		E58645562926034C00CBC372 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E58645542926034C00CBC372 /* OpenCVWrapper.mm */; };
 		E586455B292604F500CBC372 /* GuidanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5864557292604F500CBC372 /* GuidanceModel.swift */; };
@@ -128,10 +125,7 @@
 		E586451B2925FB1100CBC372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E586451D2925FB1100CBC372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E58645222925FB1100CBC372 /* MiraikanARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraikanARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E58645262925FB1100CBC372 /* MiraikanARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraikanARTests.swift; sourceTree = "<group>"; };
 		E586452C2925FB1100CBC372 /* MiraikanARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraikanARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E58645302925FB1100CBC372 /* MiraikanARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraikanARUITests.swift; sourceTree = "<group>"; };
-		E58645322925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraikanARUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E58645502926034C00CBC372 /* MiraikanAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiraikanAR-Bridging-Header.h"; sourceTree = "<group>"; };
 		E58645512926034C00CBC372 /* MarkerWorldTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerWorldTransform.h; sourceTree = "<group>"; };
 		E58645522926034C00CBC372 /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
@@ -218,8 +212,6 @@
 			isa = PBXGroup;
 			children = (
 				E586450E2925FB1000CBC372 /* MiraikanAR */,
-				E58645252925FB1100CBC372 /* MiraikanARTests */,
-				E586452F2925FB1100CBC372 /* MiraikanARUITests */,
 				E586450D2925FB1000CBC372 /* Products */,
 				FB3AEAFE8EDB94007FBFF132 /* Pods */,
 				C86D1B4DF34048B06D86E7F1 /* Frameworks */,
@@ -251,23 +243,6 @@
 				E586451D2925FB1100CBC372 /* Info.plist */,
 			);
 			path = MiraikanAR;
-			sourceTree = "<group>";
-		};
-		E58645252925FB1100CBC372 /* MiraikanARTests */ = {
-			isa = PBXGroup;
-			children = (
-				E58645262925FB1100CBC372 /* MiraikanARTests.swift */,
-			);
-			path = MiraikanARTests;
-			sourceTree = "<group>";
-		};
-		E586452F2925FB1100CBC372 /* MiraikanARUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E58645302925FB1100CBC372 /* MiraikanARUITests.swift */,
-				E58645322925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift */,
-			);
-			path = MiraikanARUITests;
 			sourceTree = "<group>";
 		};
 		E586454B2926030B00CBC372 /* library */ = {
@@ -720,7 +695,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E58645272925FB1100CBC372 /* MiraikanARTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,8 +702,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E58645312925FB1100CBC372 /* MiraikanARUITests.swift in Sources */,
-				E58645332925FB1100CBC372 /* MiraikanARUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
