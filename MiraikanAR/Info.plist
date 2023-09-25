@@ -22,5 +22,9 @@
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Using AR function</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Using AR function</string>
 </dict>
 </plist>
